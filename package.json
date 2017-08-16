@@ -1,0 +1,24 @@
+{
+  "name": "zhangshu",
+  "version": "1.0.0",
+  "description": "模仿酷狗",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czhangshu/zhangshu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czhangshu/zhangshu/issues"
+  },
+  "homepage": "https://github.com/Czhangshu/zhangshu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
