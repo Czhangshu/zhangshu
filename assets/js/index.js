@@ -37,3 +37,31 @@ function lun(cb) {
     $('.lunbo ul li').eq(index).fadeIn();
     $('.lunbo ol li').eq(index).addClass('active');
 }
+
+$('.lunbo').mouseover(function() {
+    $('.left').css("display", "block");
+    $('.right').css("display", "block");
+})
+
+$('.lunbo').mouseout(function() {
+    $('.left').css("display", "none");
+    $('.right').css("display", "none");
+})
+
+$('.left').click(function() {
+    lun(function() {
+        index--;
+        if (index < 0) {
+            index = len - 1;
+        }
+    })
+})
+
+$('.right').click(function() {
+    lun(function() {
+        index++;
+        if (index > len - 1) {
+            index = 0;
+        }
+    })
+})

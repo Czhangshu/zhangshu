@@ -121,7 +121,8 @@
         position: absolute;
         left: 324px;
         top: 37px;
-        display: none; }
+        display: none;
+        z-index: 999; }
         .nav .nav-container .shouye .gengduo li {
           clear: both;
           width: 113px;
@@ -152,8 +153,8 @@
 .lunbo {
   width: 100%;
   height: 445px;
-  background-color: pink;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .lunbo img {
     width: 100%; }
   .lunbo ul li {
@@ -179,3 +180,98 @@
     width: 10px;
     height: 10px;
     background-color: #fff; }
+  .lunbo .left {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 60px;
+    height: 120px;
+    line-height: 120px;
+    background-color: black;
+    opacity: 0.3;
+    display: none; }
+    .lunbo .left i {
+      font-size: 60px;
+      color: white;
+      opacity: 0.3; }
+  .lunbo .left:hover {
+    background-color: black;
+    opacity: 0.5; }
+  .lunbo .left:hover i {
+    color: #fff;
+    opacity: 1; }
+  .lunbo .right {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 60px;
+    height: 120px;
+    line-height: 120px;
+    background-color: black;
+    opacity: 0.3;
+    display: none; }
+    .lunbo .right i {
+      font-size: 60px;
+      color: white;
+      opacity: 0.3; }
+  .lunbo .right:hover {
+    background-color: black;
+    opacity: 0.5; }
+  .lunbo .right:hover i {
+    color: #fff;
+    opacity: 1; }
+  .lunbo .lunboxia {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .lunbo .lunboxia .xiazai {
+      width: 745px;
+      height: 64px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .lunbo .lunboxia .xiazai .pcban {
+        width: 130px;
+        height: 25px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 45px;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        line-height: 25px;
+        border-right: 1px solid #ccc;
+        float: left; }
+        .lunbo .lunboxia .xiazai .pcban i {
+          font-size: 25px;
+          margin-right: 20px; }
+      .lunbo .lunboxia .xiazai .iphoneban {
+        width: 150px;
+        height: 25px;
+        margin-top: 20px;
+        margin-left: 55px;
+        padding-right: 45px;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        line-height: 25px;
+        border-right: 1px solid #ccc;
+        float: left; }
+        .lunbo .lunboxia .xiazai .iphoneban i {
+          font-size: 28px;
+          margin-right: 20px; }
+      .lunbo .lunboxia .xiazai .androidban {
+        width: 160px;
+        height: 25px;
+        margin-top: 20px;
+        margin-left: 55px;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        line-height: 25px;
+        float: left; }
+        .lunbo .lunboxia .xiazai .androidban i {
+          font-size: 28px;
+          margin-right: 20px; }
