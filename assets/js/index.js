@@ -65,3 +65,26 @@ $('.right').click(function() {
         }
     })
 })
+
+
+window.onload = function() {
+    // 1.获取对象
+    var li = document.querySelectorAll('.shoufatou li');
+    var item = document.querySelectorAll('.shoufaliebiao ul');
+
+    var index = 0;
+    li[0].style.color = '#009af3';
+    for (var i = 0; i < li.length; i++) {
+        li[i].index = i;
+        li[i].onmouseover = function() {
+            this.style.color = '#009af3';
+            item[index].style.display = 'none';
+
+            index = this.index;
+            item[index].style.display = 'block';
+        }
+        li[i].onmouseout = function() {
+            this.style.color = '';
+        }
+    }
+}

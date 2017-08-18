@@ -550,8 +550,21 @@
                     width: 98px;
                 }
             }
-
-
+            .aaa {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 98px;
+                height: 98px;
+                display: none;
+                i:first-child {
+                    position: absolute;
+                    top: 30px;
+                    left: 32px;
+                    font-size: 35px;
+                    color: #fff;
+                }
+            }
             .biaoshengzi {
                 width: 200px;
                 height: 68px;
@@ -568,11 +581,15 @@
                     color: #555;
                 }
             }
-            i {
+            i:last-child {
                 position: absolute;
                 right: 0;
                 top: 40px;
             }
+        }
+        .biaosheng:hover .aaa {
+            display: block;
+            background: rgba(0, 0, 0, .3);
         }
     }
 }
@@ -590,4 +607,92 @@
     margin: 0 auto;
     margin-top: 40px;
     background-color: #ddd;
+    margin-bottom: 500px;
+    .shoufa {
+        width: 650px;
+        height: 375px;
+        background-color: pink;
+        float: left;
+        .shoufatou {
+            width: 650px;
+            height: 30px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #f0f0f0;
+            span:first-child {
+                font-size: 28px;
+                color: #555;
+                display: block;
+                float: left;
+                margin-right: 25px;
+                a {
+                    font-size: 28px;
+                    color: #009af3;
+                }
+            }
+            ul {
+                display: block;
+                float: left;
+                font-size: 14px;
+                line-height: 40px;
+                li {
+                    margin-right: 20px;
+                    float: left;
+                }
+            }
+            .quanbubofang {
+                width: 69px;
+                height: 19px;
+                padding: 5px 10px;
+                border: 1px solid #dbdbdb;
+                border-radius: 2px;
+                float: right;
+                margin-top: 7px;
+                color: #555;
+                font-size: 13px;
+                text-align: center;
+                line-height: 19px;
+            }
+        }
+        .shoufaliebiao {
+            width: 650px;
+            height: 310px;
+            background-color: yellow;
+            ul {
+                display: none;
+            }
+            ul:first-child {
+                display: block;
+            }
+
+            ul li {
+                width: 630px;
+                height: 35px;
+                line-height: 35px;
+                padding: 0 10px;
+                background-color: #f5f8fb;
+                font-size: 13px;
+                color: #333;
+                span:first-child {
+                    display: block;
+                    float: left;
+                }
+                span:last-child {
+                    display: block;
+                    float: right;
+                }
+            }
+            .liebiaoye {
+                width: 650px;
+                height: 30px;
+                background-color: red;
+            }
+        }
+    }
+    .tuijian {
+        width: 320px;
+        height: 375px; // height: 362px;
+        float: right;
+        background: yellow;
+    }
 }
