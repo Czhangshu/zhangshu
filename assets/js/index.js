@@ -87,4 +87,22 @@ window.onload = function() {
             this.style.color = '';
         }
     }
+
+
+    var lunol = document.querySelectorAll('.lunol li');
+    var geshou = document.querySelectorAll('.remengeshou>li');
+
+    for (var i = 0; i < lunol.length; i++) {
+        lunol[i].index = i;
+        lunol[i].onmouseover = function() {
+            this.style.background = '#009af3';
+            geshou[index].style.display = 'none';
+
+            index = this.index;
+            geshou[index].style.display = 'block';
+        }
+        lunol[i].onmouseout = function() {
+            this.style.background = '';
+        }
+    }
 }
