@@ -1025,6 +1025,8 @@
       padding: 10px;
       color: #b1b3b9;
       text-decoration: none; }
+    .footer .guanyu a:hover {
+      color: #009af3; }
   .footer .shuoming {
     width: 1000px;
     height: 150px;
