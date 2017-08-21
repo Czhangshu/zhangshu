@@ -341,7 +341,7 @@
             margin-right: 10px;
             vertical-align: middle;
             background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
-            background-position: -180px -150px; }
+            background-position: -180px -180px; }
           .container .right .youneirong .leibiao ul li span:nth-child(2) {
             display: inline-block;
             width: 15px;
@@ -461,12 +461,3 @@
       text-align: center;
       color: #b1b3b9;
       font-size: 13px; }
-
-.xuanze1 {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 10px;
-  vertical-align: middle;
-  background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
-  background-position: -180px -150px; }

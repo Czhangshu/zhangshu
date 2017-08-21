@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 78px;
+    background-color: white;
+}
+
+.header-container {
+    width: 1000px;
+    height: 78px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 153px;
+    height: 37px;
+    margin-top: 20px;
+    float: left;
+}
+
+.sousuo {
+    width: 298px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 22px;
+    line-height: 34px;
+    float: left;
+    margin-left: 30px;
+    input {
+        margin-left: 20px;
+        outline: medium;
+        border: none;
+    }
+}
+
+
+.sousuotu {
+    width: 34px;
+    height: 34px;
+    float: right;
+    text-align: center;
+}
+
+.sousuotu:hover {
+    color: #169af3;
+    cursor: pointer;
+}
+
+.kefu {
+    width: 402px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin-top: 24px;
+    ul {
+        width: 260px;
+        color: #777;
+        float: left;
+        border-right: 1px solid #e6e6e6;
+        li {
+            float: left;
+            padding: 0 15px;
+            font-size: 13px;
+        }
+        li:hover {
+            color: #169af3;
+            cursor: pointer;
+        }
+    }
+
+    .denglu {
+        width: 48px;
+        height: 28px;
+        border: 1px solid #169af3;
+        float: left;
+        border-radius: 2px;
+        background-color: #169af3;
+        text-align: center;
+        margin-left: 27px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .zhuce {
+        width: 48px;
+        height: 28px;
+        border: #169af3;
+        float: left;
+        border: 1px solid #dbdbdb;
+        border-radius: 2px;
+        background-color: #fff;
+        text-align: center;
+        margin-left: 13px;
+        font-size: 14px;
+        color: #777;
+    }
+    .denglu:hover {
+        background-color: #158FE1;
+        cursor: pointer;
+    }
+    .zhuce:hover {
+        color: #169af3;
+        border: 1px solid #169af3;
+        cursor: pointer;
+    }
+}
+
+.nav {
+    width: 100%;
+    height: 55px;
+    background-color: #2c323b;
+    .nav-container {
+        width: 1000px;
+        height: 55px;
+        margin: 0 auto;
+        .shouye {
+            position: relative;
+            height: 55px;
+            line-height: 55px;
+            float: left;
+            li {
+                float: left;
+                padding: 0 30px;
+                font-size: 16px;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+            }
+            .shouyeli {
+                background-color: #169af3;
+            }
+            li:hover {
+                background-color: #169af3;
+            }
+            .gengduoli:hover .gengduo {
+                display: block;
+            }
+            .gengduo {
+                position: absolute;
+                left: 324px;
+                top: 37px;
+                display: none;
+                z-index: 999;
+                li {
+                    clear: both;
+                    width: 113px;
+                    height: 36px;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 15px;
+                    background-color: #2c323b;
+                    color: #bbb;
+                    cursor: pointer;
+                    margin: 0;
+                    padding: 0;
+                }
+                li:hover {
+                    background-color: #2d343d;
+                    color: #fff;
+                }
+            }
+        }
+        ul:last-child {
+            float: right;
+            margin-top: 18px;
+            li {
+                float: left;
+                font-size: 13px;
+                color: #bbb;
+                margin-left: 30px;
+            }
+            li:hover {
+                color: #169af3;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.container {
+    width: 1000px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 20px;
+    .lunbo {
+        position: relative;
+        width: 663px;
+        height: 325px;
+        background-color: #ddd;
+        overflow: hidden;
+        float: left;
+        ul {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6630px;
+            transition: all 0.3s linear 0s;
+            li {
+                position: relative;
+                float: left;
+                div {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 663px;
+                    height: 40px;
+                    line-height: 40px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    color: #fff;
+                    font-size: 13px;
+                    padding: 3px 20px 3px 20px;
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+        ol {
+            position: absolute;
+            right: 15px;
+            bottom: 5px;
+            width: 120px;
+            height: 29px;
+            li {
+                width: 12px;
+                height: 11px;
+                line-height: 22px;
+                float: left;
+                color: #fff;
+                text-align: center;
+                border-radius: 50%;
+                background-color: #fff;
+                margin: 9px 4px;
+            }
+            .active {
+                background-color: #82d2f1;
+            }
+        }
+    }
+    .paihang {
+        width: 317px;
+        height: 325px;
+        float: right;
+        .paihangtou {
+            width: 317px;
+            height: 30px;
+            span:first-child {
+                display: inline-block;
+                width: 219px;
+                height: 30px;
+                line-height: 30px;
+                padding-left: 15px;
+                margin-right: 1px;
+                background-color: #deb200;
+                color: #fff;
+                font-size: 14px;
+                float: left;
+            }
+            span:last-child {
+                display: inline-block;
+                width: 82px;
+                height: 30px;
+                line-height: 30px;
+                float: right;
+                font-weight: normal;
+                background-color: #363636;
+                text-align: center;
+                font-size: 14px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        ul {
+            width: 317px;
+            height: 293px;
+            margin-top: 2px;
+            background-color: #363636;
+            li {
+                width: 314px;
+                height: 29px;
+                line-height: 29px;
+                padding-left: 3px;
+                cursor: pointer;
+                background-color: #363636;
+                span:first-child {
+                    display: inline-block;
+                    width: 37px;
+                    height: 29px;
+                    float: left;
+                    background-image: url(http://www.kugou.com/mvweb/common/images/bg.png);
+                    background-repeat: no-repeat;
+                    background-position: -336px -218px;
+                }
+                span:nth-child(2) {
+                    display: inline-block;
+                    width: 220px;
+                    height: 29px;
+                    line-height: 29px;
+                    float: left;
+                    font-size: 13px;
+                    color: #fff;
+                    background-color: #363636;
+                }
+                span:nth-child(3) {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    margin-top: 5px;
+                    float: left;
+                    background: url(http://www.kugou.com/mvweb/common/images/play.png) no-repeat;
+                }
+            }
+            li:hover {
+                background-color: #959595;
+            }
+        }
+    }
+}
