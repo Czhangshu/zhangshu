@@ -10,11 +10,12 @@ function run() {
     timer = setInterval(function() {
         num[index].className = '';
         index++;
-        console.log(index);
+        num[0].className = 'active';
         if (index > len - 1) {
             index = 0;
             ul.style.left = 0;
         } else {
+            num[0].className = '';
             ul.style.left = index * -663 + 'px';
             num[index].className = 'active';
         }

@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 78px;
+    background-color: white;
+}
+
+.header-container {
+    width: 1000px;
+    height: 78px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 153px;
+    height: 37px;
+    margin-top: 20px;
+    float: left;
+}
+
+.sousuo {
+    width: 298px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 22px;
+    line-height: 34px;
+    float: left;
+    margin-left: 30px;
+}
+
+.sousuo input {
+    margin-left: 20px;
+    outline: medium;
+    border: none;
+}
+
+.sousuotu {
+    width: 34px;
+    height: 34px;
+    float: right;
+    text-align: center;
+}
+
+.sousuotu:hover {
+    color: #169af3;
+    cursor: pointer;
+}
+
+.kefu {
+    width: 402px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin-top: 24px;
+}
+
+.kefu ul {
+    width: 260px;
+    color: #777;
+    float: left;
+    border-right: 1px solid #e6e6e6;
+}
+
+.kefu ul li {
+    float: left;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.kefu ul li:hover {
+    color: #169af3;
+    cursor: pointer;
+}
+
+.kefu .denglu {
+    width: 48px;
+    height: 28px;
+    border: 1px solid #169af3;
+    float: left;
+    border-radius: 2px;
+    background-color: #169af3;
+    text-align: center;
+    margin-left: 27px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.kefu .zhuce {
+    width: 48px;
+    height: 28px;
+    border: #169af3;
+    float: left;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #777;
+}
+
+.kefu .denglu:hover {
+    background-color: #158FE1;
+    cursor: pointer;
+}
+
+.kefu .zhuce:hover {
+    color: #169af3;
+    border: 1px solid #169af3;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    height: 55px;
+    background-color: #2c323b;
+}
+
+.nav .nav-container {
+    width: 1000px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.nav .nav-container .shouye {
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+}
+
+.nav .nav-container .shouye li {
+    float: left;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav .nav-container .shouye .shouyeli {
+    background-color: #169af3;
+}
+
+.nav .nav-container .shouye li:hover {
+    background-color: #169af3;
+}
+
+.nav .nav-container .shouye .gengduoli:hover .gengduo {
+    display: block;
+}
+
+.nav .nav-container .shouye .gengduo {
+    position: absolute;
+    left: 324px;
+    top: 37px;
+    display: none;
+    z-index: 999;
+}
+
+.nav .nav-container .shouye .gengduo li {
+    clear: both;
+    width: 113px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+    background-color: #2c323b;
+    color: #bbb;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .nav-container .shouye .gengduo li:hover {
+    background-color: #2d343d;
+    color: #fff;
+}
+
+.nav .nav-container ul:last-child {
+    float: right;
+    margin-top: 18px;
+}
+
+.nav .nav-container ul:last-child li {
+    float: left;
+    font-size: 13px;
+    color: #bbb;
+    margin-left: 30px;
+}
+
+.nav .nav-container ul:last-child li:hover {
+    color: #169af3;
+    cursor: pointer;
+}
+
+.tou {
+    width: 1000px;
+    height: 27px;
+    line-height: 27px;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.tou span:first-child {
+    font-size: 12px;
+    color: #878787;
+    font-weight: normal;
+}
+
+.tou span:last-child {
+    font-size: 12px;
+    color: #878787;
+    font-weight: bold;
+}
+
+.video {
+    width: 1000px;
+    height: 498px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.video video {
+    width: 1000px;
+    height: 494px;
+}
+
+.cai {
+    width: 990px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #878787;
+    font-weight: bold;
+}
+
+.shipin {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.shipin ul {
+    width: 1032px;
+    height: 110px;
+}
+
+.shipin ul li {
+    position: relative;
+    width: 140px;
+    height: 110px;
+    margin-right: 32px;
+    float: left;
+}
+
+.shipin ul li img {
+    width: 140px;
+    height: 78px;
+}
+
+.shipin ul li .yinying {
+    width: 140px;
+    height: 44px;
+    position: absolute;
+    left: 0;
+    top: 34px;
+}
+
+.shipin ul li .yinying img {
+    width: 140px;
+    height: 44px;
+}
+
+.shipin ul li .xingebofang {
+    position: absolute;
+    right: 12px;
+    top: 45px;
+    width: 22px;
+    height: 22px;
+}
+
+.shipin ul li .xingebofang img {
+    width: 22px;
+    height: 22px;
+}
+
+.shipin ul li span {
+    display: block;
+    width: 124px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: #555;
+    font-size: 14px;
+}
+
+.footer {
+    width: 100%;
+    height: 239px;
+    padding-bottom: 50px;
+    background-color: #2c323b;
+}
+
+.footer .guanyu {
+    width: 100%;
+    height: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #b1b3b9;
+    float: left;
+    font-size: 12px;
+    border-bottom: 1px solid #3d424a;
+    margin-bottom: 40px;
+}
+
+.footer .guanyu a {
+    padding: 10px;
+    color: #b1b3b9;
+    text-decoration: none;
+}
+
+.footer .guanyu a:hover {
+    color: #009af3;
+}
+
+.footer .shuoming {
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.footer .shuoming p {
+    line-height: 30px;
+    text-align: center;
+    color: #b1b3b9;
+    font-size: 13px;
+}
