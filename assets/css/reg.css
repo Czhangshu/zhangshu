@@ -118,25 +118,21 @@
   .container .shouji {
     width: 858px;
     height: 450px;
-    padding: 50px;
-    background-color: orange; }
+    padding: 50px; }
     .container .shouji ul {
       width: 858px;
       height: 500px;
-      margin: 0 auto;
-      background-color: #ddd; }
+      margin: 0 auto; }
       .container .shouji ul li {
         width: 858px;
         height: 53px;
-        font-size: 15px;
-        background-color: pink; }
+        font-size: 15px; }
         .container .shouji ul li .shoujihaoma {
           width: 290px;
           height: 38px;
           line-height: 38px;
           padding-right: 10px;
           padding-bottom: 15px;
-          background-color: red;
           float: left; }
           .container .shouji ul li .shoujihaoma span {
             display: block;
@@ -144,8 +140,7 @@
         .container .shouji ul li .sex {
           width: 558px;
           height: 38px;
-          padding: 9px 0 11px 0;
-          background-color: yellow; }
+          padding: 9px 0 11px 0; }
           .container .shouji ul li .sex input {
             margin-left: 10px; }
         .container .shouji ul li .xieyi {
@@ -153,7 +148,6 @@
           height: 25px;
           line-height: 25px;
           padding-bottom: 15px;
-          background-color: cyan;
           font-size: 14px;
           color: #474747; }
           .container .shouji ul li .xieyi .input3 {
@@ -194,15 +188,13 @@
           background-color: #3db9ec; }
       .container .shouji ul .mima {
         width: 858px;
-        height: 75px;
-        background-color: blue; }
+        height: 75px; }
         .container .shouji ul .mima .qiangdu {
           width: 558px;
           height: 12px;
           margin-top: 10px;
           font-size: 12px;
-          float: left;
-          background-color: green; }
+          float: left; }
           .container .shouji ul .mima .qiangdu span {
             display: inline-block;
             float: left;
