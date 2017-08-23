@@ -65,8 +65,6 @@ $('.right').click(function() {
         }
     })
 })
-
-
 window.onload = function() {
     // 1.获取对象
     var li = document.querySelectorAll('.shoufatou li');
@@ -105,4 +103,5 @@ window.onload = function() {
             this.style.background = '';
         }
     }
+
 }

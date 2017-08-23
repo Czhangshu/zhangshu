@@ -212,6 +212,8 @@
                 margin: 0 20px 50px 0;
                 background-color: #fff;
                 float: left;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+                cursor: pointer;
                 p {
                     float: right;
                     color: #c3c3c3;
@@ -266,6 +268,15 @@
                         }
                     }
                 }
+                &:hover .pczi span {
+                    color: #199be5;
+                }
+            }
+            .pc:hover {
+                box-shadow: 0 0 18px rgba(0, 0, 0, 0.25);
+            }
+            .liji:hover {
+                background-color: #0090e2;
             }
         }
     }
@@ -291,11 +302,13 @@
                 margin-bottom: 20px;
                 background-color: #fff;
                 float: left;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
                 .tu {
                     width: 110px;
                     height: 92px;
                     text-align: center;
                     float: left;
+                    cursor: pointer;
                     img {
                         margin-top: 21px;
                     }
@@ -305,6 +318,7 @@
                     color: #333;
                     margin-bottom: 3px;
                     font-size: 16px;
+                    cursor: pointer;
                 }
                 .er {
                     display: inline-block;
@@ -325,6 +339,10 @@
                         background-color: #28a9f3;
                         color: #fff;
                         font-size: 13px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #0090e2;
+                        }
                     }
                     .si {
                         color: #c3c3c3;
@@ -333,6 +351,12 @@
                         vertical-align: middle;
                     }
                 }
+                &:hover .yi {
+                    color: #199be5;
+                }
+            }
+            .two:hover {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
             }
         }
     }

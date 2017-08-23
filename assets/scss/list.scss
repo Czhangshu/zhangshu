@@ -216,22 +216,58 @@
                 width: 218px;
                 height: 600px;
                 margin-top: 6px;
+                .first {
+                    width: 218px;
+                    height: 36px;
+                    line-height: 36px;
+                    margin-bottom: 4px;
+                    cursor: pointer;
+                    background-color: #169af3;
+                    span {
+                        width: 203px;
+                        height: 36px;
+                        padding-left: 15px;
+                        color: #fff;
+                        font-size: 14px;
+                        img {
+                            width: 16px;
+                            height: 16px;
+                            vertical-align: middle;
+                            margin-right: 5px;
+                        }
+                    }
+                    &:hover {
+                        background-color: #169af3;
+                    }
+                    &:hover span {
+                        color: #fff;
+                    }
+                }
                 li {
                     width: 218px;
                     height: 36px;
+                    line-height: 36px;
                     margin-bottom: 4px;
+                    cursor: pointer;
                     span {
                         width: 203px;
                         height: 36px;
                         padding-left: 15px;
                         color: #555;
                         font-size: 14px;
+
                         img {
                             width: 16px;
                             height: 16px;
-                            margin-top: 11px;
+                            vertical-align: middle;
                             margin-right: 5px;
                         }
+                    }
+                    &:hover {
+                        background-color: #f5f8fb;
+                    }
+                    &:hover span {
+                        color: #288fe7;
                     }
                 }
             }
@@ -260,22 +296,32 @@
                 width: 218px;
                 height: 360px;
                 margin-top: 6px;
+
                 li {
                     width: 218px;
                     height: 36px;
+                    line-height: 36px;
                     margin-bottom: 4px;
+                    cursor: pointer;
                     span {
                         width: 203px;
                         height: 36px;
                         padding-left: 15px;
                         color: #555;
                         font-size: 14px;
+
                         img {
                             width: 16px;
                             height: 16px;
-                            margin-top: 11px;
+                            vertical-align: middle;
                             margin-right: 5px;
                         }
+                    }
+                    &:hover {
+                        background-color: #f5f8fb;
+                    }
+                    &:hover span {
+                        color: #288fe7;
                     }
                 }
             }
@@ -307,19 +353,28 @@
                 li {
                     width: 218px;
                     height: 36px;
+                    line-height: 36px;
                     margin-bottom: 4px;
+                    cursor: pointer;
                     span {
                         width: 203px;
                         height: 36px;
                         padding-left: 15px;
                         color: #555;
                         font-size: 14px;
+
                         img {
                             width: 16px;
                             height: 16px;
-                            margin-top: 11px;
+                            vertical-align: middle;
                             margin-right: 5px;
                         }
+                    }
+                    &:hover {
+                        background-color: #f5f8fb;
+                    }
+                    &:hover span {
+                        color: #288fe7;
                     }
                 }
             }
@@ -401,6 +456,10 @@
                         border-bottom: 1px solid #f2f2f2;
                         color: #000;
                         font-size: 14px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #f5f8fb;
+                        }
                         span:first-child {
                             display: inline-block;
                             width: 14px;
@@ -410,7 +469,7 @@
                             background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
                             background-position: -180px -180px;
                         }
-                        span:nth-child(2) {
+                        .huangse {
                             display: inline-block;
                             width: 15px;
                             height: 54px;
@@ -420,6 +479,17 @@
                             font-size: 18px;
                             vertical-align: middle;
                         }
+                        .huise {
+                            display: inline-block;
+                            width: 15px;
+                            height: 54px;
+                            margin-right: 10px;
+                            text-align: center;
+                            color: #999;
+                            font-size: 18px;
+                            vertical-align: middle;
+                        }
+
                         span:nth-child(3) {
                             display: inline-block;
                             width: 17px;
@@ -458,6 +528,9 @@
                                 background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
                                 background-position: 0 0;
                                 float: left;
+                                &:hover {
+                                    background-position: 0 -30px;
+                                }
                             }
                             .bofang2 {
                                 width: 12px;
@@ -467,6 +540,9 @@
                                 float: left;
                                 padding-left: 16px;
                                 margin-left: 15px;
+                                &:hover {
+                                    background-position: -90px -30px;
+                                }
                             }
                             .bofang3 {
                                 width: 12px;
@@ -475,6 +551,9 @@
                                 background-position: -298px 0;
                                 float: left;
                                 padding-left: 16px;
+                                &:hover {
+                                    background-position: -298px -30px;
+                                }
                             }
                         }
                     }

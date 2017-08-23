@@ -180,10 +180,34 @@
         width: 218px;
         height: 600px;
         margin-top: 6px; }
+        .container .left .remen ul .first {
+          width: 218px;
+          height: 36px;
+          line-height: 36px;
+          margin-bottom: 4px;
+          cursor: pointer;
+          background-color: #169af3; }
+          .container .left .remen ul .first span {
+            width: 203px;
+            height: 36px;
+            padding-left: 15px;
+            color: #fff;
+            font-size: 14px; }
+            .container .left .remen ul .first span img {
+              width: 16px;
+              height: 16px;
+              vertical-align: middle;
+              margin-right: 5px; }
+          .container .left .remen ul .first:hover {
+            background-color: #169af3; }
+          .container .left .remen ul .first:hover span {
+            color: #fff; }
         .container .left .remen ul li {
           width: 218px;
           height: 36px;
-          margin-bottom: 4px; }
+          line-height: 36px;
+          margin-bottom: 4px;
+          cursor: pointer; }
           .container .left .remen ul li span {
             width: 203px;
             height: 36px;
@@ -193,8 +217,12 @@
             .container .left .remen ul li span img {
               width: 16px;
               height: 16px;
-              margin-top: 11px;
+              vertical-align: middle;
               margin-right: 5px; }
+          .container .left .remen ul li:hover {
+            background-color: #f5f8fb; }
+          .container .left .remen ul li:hover span {
+            color: #288fe7; }
     .container .left .zuo2 {
       width: 218px;
       border-top: 1px solid #f2f2f2; }
@@ -219,7 +247,9 @@
         .container .left .zuo2 ul li {
           width: 218px;
           height: 36px;
-          margin-bottom: 4px; }
+          line-height: 36px;
+          margin-bottom: 4px;
+          cursor: pointer; }
           .container .left .zuo2 ul li span {
             width: 203px;
             height: 36px;
@@ -229,8 +259,12 @@
             .container .left .zuo2 ul li span img {
               width: 16px;
               height: 16px;
-              margin-top: 11px;
+              vertical-align: middle;
               margin-right: 5px; }
+          .container .left .zuo2 ul li:hover {
+            background-color: #f5f8fb; }
+          .container .left .zuo2 ul li:hover span {
+            color: #288fe7; }
     .container .left .zuo3 {
       width: 218px;
       border-top: 1px solid #f2f2f2; }
@@ -255,7 +289,9 @@
         .container .left .zuo3 ul li {
           width: 218px;
           height: 36px;
-          margin-bottom: 4px; }
+          line-height: 36px;
+          margin-bottom: 4px;
+          cursor: pointer; }
           .container .left .zuo3 ul li span {
             width: 203px;
             height: 36px;
@@ -265,8 +301,12 @@
             .container .left .zuo3 ul li span img {
               width: 16px;
               height: 16px;
-              margin-top: 11px;
+              vertical-align: middle;
               margin-right: 5px; }
+          .container .left .zuo3 ul li:hover {
+            background-color: #f5f8fb; }
+          .container .left .zuo3 ul li:hover span {
+            color: #288fe7; }
   .container .right {
     width: 750px;
     height: 1443px;
@@ -333,7 +373,10 @@
           padding: 0 10px;
           border-bottom: 1px solid #f2f2f2;
           color: #000;
-          font-size: 14px; }
+          font-size: 14px;
+          cursor: pointer; }
+          .container .right .youneirong .leibiao ul li:hover {
+            background-color: #f5f8fb; }
           .container .right .youneirong .leibiao ul li span:first-child {
             display: inline-block;
             width: 14px;
@@ -342,13 +385,22 @@
             vertical-align: middle;
             background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
             background-position: -180px -180px; }
-          .container .right .youneirong .leibiao ul li span:nth-child(2) {
+          .container .right .youneirong .leibiao ul li .huangse {
             display: inline-block;
             width: 15px;
             height: 54px;
             margin-right: 10px;
             text-align: center;
             color: #fe2c62;
+            font-size: 18px;
+            vertical-align: middle; }
+          .container .right .youneirong .leibiao ul li .huise {
+            display: inline-block;
+            width: 15px;
+            height: 54px;
+            margin-right: 10px;
+            text-align: center;
+            color: #999;
             font-size: 18px;
             vertical-align: middle; }
           .container .right .youneirong .leibiao ul li span:nth-child(3) {
@@ -385,6 +437,8 @@
               background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat;
               background-position: 0 0;
               float: left; }
+              .container .right .youneirong .leibiao ul li .bofangtu .bofang1:hover {
+                background-position: 0 -30px; }
             .container .right .youneirong .leibiao ul li .bofangtu .bofang2 {
               width: 12px;
               height: 14px;
@@ -393,6 +447,8 @@
               float: left;
               padding-left: 16px;
               margin-left: 15px; }
+              .container .right .youneirong .leibiao ul li .bofangtu .bofang2:hover {
+                background-position: -90px -30px; }
             .container .right .youneirong .leibiao ul li .bofangtu .bofang3 {
               width: 12px;
               height: 14px;
@@ -400,6 +456,8 @@
               background-position: -298px 0;
               float: left;
               padding-left: 16px; }
+              .container .right .youneirong .leibiao ul li .bofangtu .bofang3:hover {
+                background-position: -298px -30px; }
         .container .right .youneirong .leibiao ul li:hover .bofangtu {
           display: block; }
         .container .right .youneirong .leibiao ul li:hover span {

@@ -1031,7 +1031,6 @@
             height: 30px;
             padding-bottom: 20px;
             margin-bottom: 10px;
-            background-color: pink;
             span:first-child {
                 font-size: 28px;
                 color: #555;
@@ -1052,6 +1051,9 @@
                     margin-right: 20px;
                     float: left;
                     cursor: pointer;
+                    &:hover {
+                        color: #009af3;
+                    }
                 }
             }
         }
@@ -1126,6 +1128,7 @@
                 }
             }
         }
+       
     }
 }
 
