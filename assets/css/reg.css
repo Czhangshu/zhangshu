@@ -170,13 +170,20 @@
         .container .shouji ul li .shoujikuang {
           float: left; }
           .container .shouji ul li .shoujikuang input {
-            width: 275px;
+            width: 270px;
             height: 22px;
             padding: 7px; }
           .container .shouji ul li .shoujikuang .input2 {
             width: 120px;
             height: 22px;
             padding: 7px; }
+        .container .shouji ul li .shuru {
+          display: inline-block;
+          height: 38px;
+          line-height: 38px;
+          font-size: 14px;
+          float: left;
+          display: none; }
         .container .shouji ul li .duanxin {
           display: inline-block;
           width: 48px;
@@ -185,6 +192,8 @@
           font-size: 12px;
           color: #fff;
           padding: 0 10px;
+          margin-top: 2px;
+          margin-left: 5px;
           background-color: #3db9ec; }
       .container .shouji ul .mima {
         width: 858px;

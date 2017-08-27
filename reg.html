@@ -42,93 +42,95 @@
     <div class="container">
         <div class="shoujitou"><span></span></div>
         <div class="shouji">
-            <ul>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
-                            <span>* 手机号码 : </span>
+            <form action="" method="post" class="demoform">
+                <ul>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span>* 手机号码 : </span>
+                            </div>
+                            <div class="shoujikuang">
+                                <input type="text" name="username" class="input3" id="input4" value="">
+                            </div>
+                            <span class="shuru" id="shuru1">请输入用户名</span>
                         </div>
-                        <div class="shoujikuang">
-                            <input type="text">
+                    </li>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span>* 短信验证 : </span>
+                            </div>
+                            <div class="shoujikuang">
+                                <input type="text" class="input2">
+                            </div>
+                            <span class="duanxin">获取短信</span>
                         </div>
-                        <span>请输入用户名</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
-                            <span>* 短信验证 : </span>
-                        </div>
-                        <div class="shoujikuang">
-                            <input type="text" class="input2">
-                        </div>
-                        <span class="duanxin">获取短信</span>
-                    </div>
-                </li>
-                <li class="mima">
-                    <div>
-                        <div class="shoujihaoma">
-                            <span>* 密码 : </span>
-                        </div>
-                        <div class="shoujikuang">
-                            <input type="text">
-                        </div>
-                        <span></span>
-                        <div class="qiangdu">
-                            <span>密码强度:弱</span>
-                            <div class="kuang"></div>
-                            <div class="kuang"></div>
-                            <div class="kuang"></div>
-                            <span>强</span>
-                        </div>
-                        <span>密码需由6-16个字母组成、数字和符号组成</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
-                            <span>* 确认密码 : </span>
-                        </div>
-                        <div class="shoujikuang">
-                            <input type="text">
-                        </div>
-                        <span>请再次输入密码</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
-                            <span>* 性别 : </span>
-                        </div>
-                        <div class="sex">
-                            <label>
-                                <input type="radio" name="sex">男</label>
-                            <label>
-                                <input type="radio" name="sex">女</label>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
+                    </li>
+                    <li class="mima">
+                        <div>
+                            <div class="shoujihaoma">
+                                <span>* 密码 : </span>
+                            </div>
+                            <div class="shoujikuang">
+                                <input type="password" name="password" class="input3" id="input5">
+                            </div>
+                            <span class="shuru" id="shuru2">密码需由6-16个字母组成、数字和符号组成</span>
                             <span></span>
+                            <div class="qiangdu">
+                                <span>密码强度:弱</span>
+                                <div class="kuang"></div>
+                                <div class="kuang"></div>
+                                <div class="kuang"></div>
+                                <span>强</span>
+                            </div>
                         </div>
-                        <div class="xieyi">
-                            <input type="checkbox" class="input3"><span>我已经认真阅读并同意 <a href="#">用户协议</a>、<a href="#">隐私政策</a></span>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span>* 确认密码 : </span>
+                            </div>
+                            <div class="shoujikuang">
+                                <input type="password" name="repassword" class="input3" id="input6">
+                            </div>
+                            <span class="shuru" id="shuru3">请再次输入密码</span>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div class="shoujihaoma">
-                            <span></span>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span>* 性别 : </span>
+                            </div>
+                            <div class="sex">
+                                <label>
+                                    <input type="radio" name="sex">男</label>
+                                <label>
+                                    <input type="radio" name="sex">女</label>
+                            </div>
                         </div>
-                        <div class="zhucetu">
-                            <span>注册</span>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span></span>
+                            </div>
+                            <div class="xieyi">
+                                <input type="checkbox" class="input3"><span>我已经认真阅读并同意 <a href="#">用户协议</a>、<a href="#">隐私政策</a></span>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="shoujihaoma">
+                                <span></span>
+                            </div>
+                            <div class="zhucetu">
+                                <span>注册</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </form>
         </div>
     </div>
     <div class="footer">
@@ -157,6 +159,7 @@
     </div>
     <script src="jquery.min.js"></script>
     <script src="assets/js/reg.js"></script>
+    <script src="assets/plugins/Validform_v5.3.2_min.js"></script>
 </body>
 
 </html>
